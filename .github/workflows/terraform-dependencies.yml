@@ -4,8 +4,8 @@ on:
   workflow_dispatch:
 
 env:
-  location: 'westus2'
-  resource_prefix: "backend-appsrvc"
+  location: 'eastus2'
+  resource_prefix: "backend-ebm-appsrvc"
   environment: "dev"
   suffix: "001"
   container_name: "tfstate"
