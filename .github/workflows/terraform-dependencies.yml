@@ -43,7 +43,6 @@ jobs:
               --name $formatted_st_name \
               --resource-group ${{ steps.rg.outputs.rg_name }} \
               --location ${{ env.location }} \
-              --subscription ${{ secrets.AZURE_SUBSCRIPTION }} \
               --sku Standard_LRS
 
             az storage container create \
