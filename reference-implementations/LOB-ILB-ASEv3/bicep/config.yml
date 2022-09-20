@@ -1,7 +1,7 @@
 AZURE_LOCATION: 'eastus'
 RESOURCE_NAME_PREFIX: 'asedemo'
 ENVIRONMENT_TAG: 'dev'
-DEPLOYMENT_NAME: 'ase-demo-deployment'
+DEPLOYMENT_NAME: 'ase-ebm-deployment'
 VM_USERNAME: 'agent'
 ACCOUNT_NAME: 'brentmcconnell/appservice-landing-zone-accelerator'
 CICD_AGENT_TYPE: 'github'
